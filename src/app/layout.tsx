@@ -27,7 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className='scroll-smooth'>
+    <html
+      lang='en'
+      className='scroll-smooth scrollbar-thin scrollbar-track-transparent scrollbar-thumb-[#2778ab]'
+    >
       <body className={`${roboto.className} antialiased`}>
         <ThemeProvider
           attribute='class'
