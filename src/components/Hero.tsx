@@ -7,7 +7,7 @@ const Hero = () => {
       <FloatingIcons />
       <div className='relative z-10 flex flex-col items-center justify-center gap-4 px-4 mx-auto max-w-7xl'>
         <div className='flex flex-col items-center justify-center'>
-          <span className='text-2xl font-medium tracking-tighter text-center md:text-3xl text-neutral-200/90'>
+          <span className='text-2xl font-medium tracking-tighter text-center md:text-3xl text-neutral-50/80'>
             Hello, I'm
           </span>
           <h1 className='my-2 text-4xl font-bold tracking-tighter text-center md:text-5xl xl:text-6xl'>
@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
         </div>
         <div>
-          <div className='max-w-lg font-light tracking-tight text-center md:text-lg text-neutral-200/80'>
+          <div className='max-w-lg font-light tracking-tight text-center md:text-lg text-neutral-50/90'>
             Fullstack Developer, transforming ideas into modern websites.
           </div>
         </div>
