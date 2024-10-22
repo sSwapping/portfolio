@@ -3,7 +3,7 @@ import { User } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className='flex flex-col justify-center h-screen gap-4 mx-auto size-screen'>
+    <div className='flex flex-col justify-center h-screen gap-4 mx-auto'>
       <FloatingIcons />
       <div className='relative z-10 flex flex-col items-center justify-center gap-4 px-4 mx-auto max-w-7xl'>
         <div className='flex flex-col items-center justify-center'>
