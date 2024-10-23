@@ -64,6 +64,15 @@ const config: Config = {
           "5": "hsl(var(--chart-5))",
         },
       },
+      keyframes: {
+        "move-left": {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        "move-left": "move-left 1s linear infinite",
+      },
     },
   },
   plugins: [

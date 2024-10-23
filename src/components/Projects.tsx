@@ -60,10 +60,16 @@ const ProjectsSection = () => {
     fetchProjects();
   }, []);
   return (
-    <div className='h-screen my-auto mt-12'>
+    <div className='mt-16 md:mt-20'>
       <div className='px-4 py-16 sm:px-6 lg:px-8'>
         <div className='mx-auto max-w-7xl'>
-          <h2 className='mb-12 text-3xl font-bold text-center'>My Projects</h2>
+          <h2 className='text-3xl font-bold text-center'>
+            Check out my latest work
+          </h2>
+          <p className='mb-12 text-center text-neutral-200/80 text-xs/relaxed md:text-base/relaxed lg:text-xl/relaxed'>
+            I&apos;ve worked on a variety of projects, from simple websites to
+            complex web applications. Here are a few of my favorites.
+          </p>
           {loading ? (
             <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
               {[...Array(4)].map((_, index) => (
